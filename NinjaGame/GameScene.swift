@@ -16,7 +16,7 @@ class GameScene: SKScene {
     let player = SKSpriteNode(color: .black, size: CGSize(width: 50, height: 50))
     var monstersDestroyed = 0
     var score = SKLabelNode(fontNamed: "Chalkduster")
-
+    
     override func didMove(to view: SKView) {
         
         backgroundColor = SKColor.white
